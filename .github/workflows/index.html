@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EtherNL</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Questrial&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Questrial&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Questrial&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Fichier CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- En-tête : Menu de navigation avec logo, liens et icône panier -->
+    <header class="menu">
+      <nav class="menu-conteneur">
+        <!-- Logo -->
+        <div class="menu-logo">
+          <img
+            src="./asset/icones/Logo Ethernal Color.svg"
+            alt="Logo EtherNL"
+            loading="lazy"
+          />
+        </div>
+
+        <!-- Navigation principale -->
+         
+        <ul class="menu-navigation">
+          <li class="menu-navigation-item"><a href="#horizon" class="link-horizon">Horizon</a></li>
+          <li class="menu-navigation-item"><a href="#sanctuary" class="link-sanctuary">Sanctuary</a></li>
+          <li class="menu-navigation-item"><a href="#chronos" class="link-chronos">Chronos</a></li>
+          <li class="menu-navigation-item"><a href="#ethernel" class="link-eternel">Coffret Eternel</a></li>
+        </ul>
+
+        <img src="images/menu-hamburger.png" alt="" class="menu-hamburger" width="30" height="30">
+
+        <!-- Icône panier -->
+        <div class="menu-utilisateur">
+          <button
+            id="cart-button"
+            aria-haspopup="dialog"
+            aria-controls="cart-sidebar"
+            aria-expanded="false"
+            title="Ouvrir le panier"
+          >
+            <img
+              src="./asset/icones/panier.png"
+              alt="Icône panier"
+              loading="lazy"
+            />
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- lien vers vidéo -->
+    <section
+      class="hero"
+      role="link"
+      data-href="https://youtu.be/UqFORtFuyN0?si=caSz4bok8ndCJLZ6&t=6"
+    ></section>
+
+    <!-- Contenu principal : Trois sections d'information  -->
+    <main class="contenu-principal">
+      <!-- Section 1 : Horizon -->
+      <article class="section-article">
+        <div class="section-article-conteneur">
+          <!-- Contenu textuel -->
+          <div class="section-article-contenu">
+            <span class="section-article-numero" id="horizon">01.</span>
+            <div class="section-article-surtitre-conteneur">
+              <span class="section-article-surtitre-ligne"></span>
+              <p class="section-article-surtitre">
+                Élever vos sens au delà de la matière
+              </p>
+            </div>
+            <h2 class="section-article-titre">/ Horizon</h2>
+            <p class="section-article-texte">
+              ll s’adresse à celles et ceux qui ressentent la nécessité de
+              prendre de la hauteur, de s’extraire du tumulte urbain et de
+              retrouver une respiration plus vaste. Chaque création s’inspire
+              d’atmosphères capturées à très haute altitude ou dans des zones de
+              silence absolu, là où la présence humaine s’efface presque
+              entièrement. Ces espaces rares offrent une sensation de pureté, de
+              clarté et d’élévation. Parmi les références emblématiques de la
+              collection : Stratosphère, prélevée par ballon-sonde aux
+              frontières de l’atmosphère, Nuit Polaire, saisie au cœur de
+              l’Antarctique, dans une obscurité infinie.
+            </p>
+            <a href="horizon.html" class="section-article-lien">
+              Découvrir dès maintenant !
+              <img
+                src="./asset/icones/fleche.svg"
+                alt="Icône flèche"
+                class="section-article-lien-icone"
+                loading="lazy"
+              />
+            </a>
+          </div>
+
+          <!-- Image illustrative -->
+          <div class="section-article-image ">
+            <div class="product">
+              <div class="soda" style="--url: url('images/bg1.jpg')"></div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Section 2 : Sanctuary -->
+      <article class="section-article section-article-inverse">
+        <div class="section-article-conteneur">
+          <!-- Contenu textuel -->
+          <div class="section-article-contenu">
+            <span class="section-article-numero" id="sanctuary">02.</span>
+            <div class="section-article-surtitre-conteneur">
+              <span class="section-article-surtitre-ligne-2"></span>
+              <p class="section-article-surtitre-2">
+                Là où le monde ne fait plus de bruit
+              </p>
+            </div>
+            <h2 class="section-article-titre">/ Sanctuary</h2>
+            <p class="section-article-texte">
+              Sanctuaire adopte une approche plus organique, plus intime,
+              profondément liée au vivant. Cette collection explore des lieux
+              biologiquement intacts, presque inviolés, là où la nature
+              s’exprime sans intervention humaine. Ici, il ne s’agit pas de
+              vendre une simple atmosphère, mais de transmettre une mémoire du
+              vivant, une trace sensible de territoires préservés, chargés
+              d’équilibre et de silence. Sanctuaire comprend notamment : Brumes
+              de l’Amazonie, Aube sur les Galápagos, Rosée de Brocéliande.
+              Chaque création évoque un refuge intérieur, un retour à
+              l’essentiel.
+            </p>
+            <a href="sanctuary.html" class="section-article-lien-2">
+              Découvrir dès maintenant !
+              <img
+                src="./asset/icones/fleche-2.svg"
+                alt="Icône flèche"
+                class="section-article-lien-icone"
+                loading="lazy"
+              />
+            </a>
+          </div>
+
+          <!-- Image illustrative -->
+          <div class="section-article-image">
+            <div class="product">
+              <div class="soda" style="--url: url('images/bg2.jpg')"></div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Section 3 : Chronos -->
+      <article class="section-article">
+        <div class="section-article-conteneur">
+          <!-- Contenu textuel -->
+          <div class="section-article-contenu">
+            <span class="section-article-numero" id="chronos">03.</span>
+            <div class="section-article-surtitre-conteneur">
+              <span class="section-article-surtitre-ligne-3"></span>
+              <p class="section-article-surtitre-3">
+                L'instant suspendu, scellé pour l'éternité
+              </p>
+            </div>
+            <h2 class="section-article-titre">/ Chronos</h2>
+            <p class="section-article-texte">
+              Chronos est la collection la plus contemplative. Elle ne capture
+              pas seulement un lieu, mais un instant précis, fragile et
+              irréversible. Ces créations sont nées de moments uniques, non
+              reproductibles, figés dans le temps comme des empreintes
+              sensorielles. Elles invitent à ralentir, à ressentir la densité
+              d’un instant suspendu. Parmi ces instants rares : Équinoxe de
+              Printemps à Kyoto, Silence d’Après-Tempête au Cap Horn, Lumière
+              d’Éclipse dans le désert d’Atacama. Chronos propose une expérience
+              hors du flux, une parenthèse où le temps cesse d’avancer.
+            </p>
+            <a href="chronos.html" class="section-article-lien-3">
+              Découvrir dès maintenant !
+              <img
+                src="./asset/icones/fleche-3.svg"
+                alt="Icône flèche"
+                class="section-article-lien-icone"
+                loading="lazy"
+              />
+            </a>
+          </div>
+
+          <!-- Image illustrative -->
+          <div class="section-article-image">
+            <div class="product">
+              <div class="soda" style="--url: url('images/bg3.jpg')"></div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Section 4 : Pack éternel -->
+      <article class="section-article section-article-inverse">
+        <div class="section-article-conteneur">
+          <!-- Contenu textuel -->
+          <div class="section-article-contenu">
+            <span class="section-article-numero" id="ethernel">04.</span>
+            <div class="section-article-surtitre-conteneur">
+              <span class="section-article-surtitre-ligne"></span>
+              <p class="section-article-surtitre">
+                Une expérience sensationnel
+              </p>
+            </div>
+            <h2 class="section-article-titre">/ Pack Eternel</h2>
+            <p class="section-article-texte">
+              Un coffret pensé comme un espace d’alignement, où ciel, terre et
+              temps ne sont plus séparés, mais perçus comme une seule continuité
+              sensible. Il ne s’agit pas de juxtaposer des créations, mais de
+              proposer un parcours intérieur : prendre de la hauteur, retrouver
+              un ancrage profond, puis laisser le temps se suspendre. Chaque
+              élément du coffret participe à cette progression silencieuse. Le
+              Pack Eternel s’adresse à celles et ceux qui ressentent le besoin
+              de s’extraire du flux, de ralentir, de retrouver une perception
+              plus vaste et plus juste du monde. Il convoque des territoires
+              extrêmes, préservés ou hors du temps, non pour les montrer, mais
+              pour en transmettre l’essence.
+            </p>
+            <a href="pack-eternel.html" class="section-article-lien">
+              Découvrir dès maintenant !
+              <img
+                src="./asset/icones/fleche.svg"
+                alt="Icône flèche"
+                class="section-article-lien-icone"
+                loading="lazy"
+              />
+            </a>
+          </div>
+
+          <!-- Image illustrative -->
+            <div class="section-article-image ">
+              <div class="responsive4">
+                <img src="images/bg4.png" alt="" class="coffret" loading="lazy" />
+              </div>
+            </div>
+          
+      </article>
+    </main>
+
+    <!-- Pied de page : Logo, slogan, copyright et liens -->
+    <footer class="pied-de-page">
+      <div class="pied-de-page-conteneur">
+        <!-- Colonne 1 : Logo et informations -->
+        <div class="pied-de-page-colonne pied-de-page-colonne-principale">
+          <div class="pied-de-page-logo">
+            <img
+              src="./asset/icones/Logo Ethernal Color.svg"
+              alt="Logo EtherNL"
+              loading="lazy"
+            />
+          </div>
+          <p class="pied-de-page-slogan">
+            Partez à la découverte de nouvelle experience !
+          </p>
+          <p class="pied-de-page-copyright">Copyright 2025 Aura Inc.</p>
+        </div>
+
+        <!-- Colonne 2 : En Savoir Plus -->
+        <div class="pied-de-page-colonne">
+          <h3 class="pied-de-page-colonne-titre">En Savoir Plus</h3>
+          <ul class="pied-de-page-liste">
+            <li class="pied-de-page-liste-item">
+              <a href="#apropos">A propos</a>
+            </li>
+            <li class="pied-de-page-liste-item">
+              <a href="#contributeurs">Contributeurs</a>
+            </li>
+            <li class="pied-de-page-liste-item">
+              <a href="#ecrire">Ecrire pour nous</a>
+            </li>
+            <li class="pied-de-page-liste-item">
+              <a href="#contact">Contactez nous</a>
+            </li>
+            <li class="pied-de-page-liste-item">
+              <a href="#confidentialite">Politique de Confidentialité</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Colonne 3 : EtherNL -->
+        <div class="pied-de-page-colonne">
+          <h3 class="pied-de-page-colonne-titre">EtherNL</h3>
+          <ul class="pied-de-page-liste">
+            <li class="pied-de-page-liste-item">
+              <a href="#equipe">Notre équipe</a>
+            </li>
+            <li class="pied-de-page-liste-item">
+              <a href="#emploi">Offre d'emploi</a>
+            </li>
+            <li class="pied-de-page-liste-item">
+              <a href="#presse">Article de presse</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Colonne 4 : Réseaux sociaux -->
+        <div class="pied-de-page-colonne">
+          <h3 class="pied-de-page-colonne-titre">Suivez-Nous</h3>
+          <ul class="pied-de-page-liste">
+            <li class="pied-de-page-liste-item">
+              <a href="https://www.youtube.com" target="_blank">Youtube</a>
+            </li>
+            <li class="pied-de-page-liste-item">
+              <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            </li>
+            <li class="pied-de-page-liste-item">
+              <a href="https://x.com/?lang=fr" target="_blank">X</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- Cart: sidebar and overlay -->
+    <div id="cart-overlay" class="cart-overlay hidden" tabindex="-1"></div>
+
+    <aside
+      id="cart-sidebar"
+      class="cart-sidebar"
+      role="dialog"
+      aria-modal="true"
+      aria-hidden="true"
+      aria-labelledby="cart-title"
+    >
+      <header class="cart-header">
+        <h2 id="cart-title">Panier</h2>
+        <button
+          id="cart-close"
+          class="cart-close"
+          aria-label="Fermer le panier"
+        >
+          ×
+        </button>
+      </header>
+
+      <div class="cart-body">
+        <ul id="cart-items" class="cart-items" aria-live="polite"></ul>
+        <p id="cart-empty" class="cart-empty">Votre panier est vide.</p>
+      </div>
+
+      <footer class="cart-footer">
+        <div class="cart-summary">
+          Total : <strong id="cart-total">0,00 €</strong>
+        </div>
+        <div class="cart-actions">
+          <button id="checkout-btn" class="checkout-btn">Commander</button>
+        </div>
+      </footer>
+    </aside>
+    <script src="script.js"></script>
+  </body>
+</html>
