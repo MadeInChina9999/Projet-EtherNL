@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Horizon — EtherNL</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Questrial&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+  </head>
+  <body>
+    <style>
+      @media (max-width: 1024px) {
+        .section-article-image{
+          left: 80%;
+        }
+      }
+    </style>
+    <header class="menu">
+      <nav class="menu-conteneur">
+        <div class="menu-logo">
+          <a href="index.html"
+            ><img
+              src="./asset/icones/Logo Ethernal Color.svg"
+              alt="Logo EtherNL"
+              loading="lazy"
+          /></a>
+        </div>
+        
+        <ul class="menu-navigation">
+          <li class="menu-navigation-item"><a href="#horizon" class="link-horizon">Horizon</a></li>
+          <li class="menu-navigation-item">
+            <a href="#sanctuary" class="link-sanctuary">Sanctuary</a>
+          </li>
+          <li class="menu-navigation-item"><a href="#chronos" class="link-chronos">Chronos</a></li>
+          <li class="menu-navigation-item">
+            <a href="#ethernel" class="link-eternel">Coffret Eternel</a>
+          </li>
+        </ul>
+
+        <img src="images/menu-hamburger.png" alt="Menu" class="menu-hamburger" width="30" height="30">
+
+        <div class="menu-utilisateur">
+          <button
+            id="cart-button"
+            aria-haspopup="dialog"
+            aria-controls="cart-sidebar"
+            aria-expanded="false"
+            title="Ouvrir le panier"
+          >
+            <img
+              src="./asset/icones/panier.png"
+              alt="Icône panier"
+              loading="lazy"
+            />
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="product-page">
+      <section
+        class="product-hero"
+        style="background-image: url('images/banner1.jpg')"
+      ></section>
+
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <article class="section-article">
+        <div class="product-details-conteneur">
+          <div class="section-article-conteneur">
+            <div class="section-article-contenu">
+              <div class="section-article-surtitre-conteneur">
+                <span class="section-article-surtitre-ligne"></span>
+                <p class="section-article-surtitre">
+                  Élever vos sens au delà de la matière
+                </p>
+              </div>
+              <h2 class="section-article-titre">/ Horizon</h2>
+              <p class="section-article-texte">
+                Horizon invite à prendre de la hauteur et à s’éloigner du bruit du monde.
+Chaque création s’inspire de lieux extrêmes et silencieux, capturés à très haute altitude, où tout semble plus pur et plus vaste.
+              </p>
+              <button
+                class="section-article-lien precommander"
+                data-id="horizon"
+                data-name="Horizon"
+                data-price="99"
+                data-img="images/bg1.jpg"
+                aria-label="Précommander — Horizon"
+              >
+                Précommander dès 99€ !
+                <img
+                  src="./asset/icones/panier.png"
+                  alt="Icône flèche"
+                  class="section-article-lien-icone"
+                  loading="lazy"
+                />
+              </button>
+            </div>
+
+            <div class="section-article-image">
+              <div class="product">
+                <div class="soda" style="--url: url('images/bg1.jpg')"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="pied-de-page">
+      <div class="pied-de-page-conteneur">
+        <div class="pied-de-page-colonne pied-de-page-colonne-principale">
+          <div class="pied-de-page-logo">
+            <img
+              src="./asset/icones/Logo Ethernal Color.svg"
+              alt="Logo EtherNL"
+              loading="lazy"
+            />
+          </div>
+          <p class="pied-de-page-slogan">
+            Partez à la découverte de nouvelle experience !
+          </p>
+          <p class="pied-de-page-copyright">Copyright 2025 Aura Inc.</p>
+        </div>
+
+        <div class="pied-de-page-colonne">
+          <h3 class="pied-de-page-colonne-titre">En Savoir Plus</h3>
+          <ul class="pied-de-page-liste">
+            <li class="pied-de-page-liste-item">
+              <a href="#apropos">A propos</a>
+            </li>
+            <li class="pied-de-page-liste-item">
+              <a href="#contributeurs">Contributeurs</a>
+            </li>
+            <li class="pied-de-page-liste-item">
+              <a href="#ecrire">Ecrire pour nous</a>
+            </li>
+            <li class="pied-de-page-liste-item">
+              <a href="#contact">Contactez nous</a>
+            </li>
+            <li class="pied-de-page-liste-item">
+              <a href="#confidentialite">Politique de Confidentialité</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="pied-de-page-colonne">
+          <h3 class="pied-de-page-colonne-titre">EtherNL</h3>
+          <ul class="pied-de-page-liste">
+            <li class="pied-de-page-liste-item">
+              <a href="#equipe">Notre équipe</a>
+            </li>
+            <li class="pied-de-page-liste-item">
+              <a href="#emploi">Offre d'emploi</a>
+            </li>
+            <li class="pied-de-page-liste-item">
+              <a href="#presse">Article de presse</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="pied-de-page-colonne">
+          <h3 class="pied-de-page-colonne-titre">Suivez-Nous</h3>
+          <ul class="pied-de-page-liste">
+            <li class="pied-de-page-liste-item">
+              <a href="https://www.youtube.com" target="_blank">Youtube</a>
+            </li>
+            <li class="pied-de-page-liste-item">
+              <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            </li>
+            <li class="pied-de-page-liste-item">
+              <a href="https://x.com/?lang=fr" target="_blank">X</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <div id="cart-overlay" class="cart-overlay hidden" tabindex="-1"></div>
+
+    <aside
+      id="cart-sidebar"
+      class="cart-sidebar"
+      role="dialog"
+      aria-modal="true"
+      aria-hidden="true"
+      aria-labelledby="cart-title"
+    >
+      <header class="cart-header">
+        <h2 id="cart-title">Panier</h2>
+        <button
+          id="cart-close"
+          class="cart-close"
+          aria-label="Fermer le panier"
+        >
+          ×
+        </button>
+      </header>
+
+      <div class="cart-body">
+        <ul id="cart-items" class="cart-items" aria-live="polite"></ul>
+        <p id="cart-empty" class="cart-empty">Votre panier est vide.</p>
+      </div>
+
+      <footer class="cart-footer">
+        <div class="cart-summary">
+          Total : <strong id="cart-total">0,00 €</strong>
+        </div>
+        <div class="cart-actions">
+          <button id="checkout-btn" class="checkout-btn">Commander</button>
+        </div>
+      </footer>
+    </aside>
+    <script src="script.js"></script>
+  </body>
+</html>
